@@ -1,0 +1,426 @@
+{
+  "university-of-california-berkeley": {
+    "checked": "2026-11-09",
+    "note": "Fall 2027 deadline and Math GRE requirement independently checked; original PDF evidence remains in the dossier.",
+    "sources": [
+      {
+        "label": "Fall 2027 admissions",
+        "url": "https://math.berkeley.edu/graduate/admissions",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Research groups",
+        "url": "https://math.berkeley.edu/research/areas",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "PhD funding",
+        "url": "https://math.berkeley.edu/graduate/funding",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Fall 2025 enrollment",
+        "url": "https://opa.berkeley.edu/node/851",
+        "checked": "2026-11-09"
+      }
+    ],
+    "deadline": "2026-12-01",
+    "deadlineDetails": "[2027 confirmed · checked 2026-11-09] Fall 2027 application deadline: December 1, 2026, 8:59 pm Pacific Time. Three recommendation letters must arrive by the deadline. Mathematics Subject GRE is required.",
+    "areas": [
+      "Algebra & representation theory",
+      "Analysis & PDE",
+      "Applied mathematics",
+      "Geometry",
+      "Topology",
+      "Logic",
+      "Probability"
+    ],
+    "schoolSize": "Large",
+    "size": "46,151 university students in Fall 2025 (33,122 undergraduate + 13,029 graduate). Large means at least 25,000 total students; mathematics cohort size not verified."
+  },
+  "stanford-university": {
+    "checked": "2026-11-09",
+    "note": "Fall 2027 deadline checked against the current department admissions page. Faculty directory broadens the PDF-focused area tags.",
+    "sources": [
+      {
+        "label": "Fall 2027 admissions",
+        "url": "https://mathematics.stanford.edu/academics/graduate-admissions",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Faculty and research areas",
+        "url": "https://mathematics.stanford.edu/people/faculty-lecturers",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "University enrollment",
+        "url": "https://facts.stanford.edu/",
+        "checked": "2026-11-09"
+      }
+    ],
+    "deadline": "2026-12-01",
+    "deadlineDetails": "[2027 confirmed · checked 2026-11-09] Autumn 2027 application deadline: December 1, 2026, 11:59 pm Pacific Time. The department does not admit external applicants to a standalone master’s program.",
+    "areas": [
+      "Geometry",
+      "Algebraic geometry",
+      "Analysis & PDE",
+      "Combinatorics",
+      "Applied mathematics",
+      "Number theory",
+      "Algebra & representation theory"
+    ],
+    "schoolSize": "Medium",
+    "size": "17,314 university students in Autumn 2025 (7,289 undergraduate + 10,025 graduate). Medium means 10,000–24,999 total students; mathematics cohort size not verified."
+  },
+  "massachusetts-institute-of-technology": {
+    "checked": "2026-11-09",
+    "note": "The current admissions page lists a December 1 deadline, optional GRE scores and support for every admitted student. The annual deadline is preserved without silently assigning a year.",
+    "sources": [
+      {
+        "label": "Mathematics admissions",
+        "url": "https://math.mit.edu/academics/grad/phd/admission/index.html",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Mathematics seminars",
+        "url": "https://math.mit.edu/news/seminars/",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Scott Sheffield research",
+        "url": "https://math.mit.edu/directory/profile.html?pid=243",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Enrollment by year",
+        "url": "https://registrar.mit.edu/stats-reports/enrollment-statistics-year/all",
+        "checked": "2026-11-09"
+      }
+    ],
+    "areas": [
+      "Topology",
+      "Applied mathematics",
+      "Number theory",
+      "Probability",
+      "Mathematical physics"
+    ],
+    "schoolSize": "Medium",
+    "size": "11,424 university students in 2026–2027 (4,466 undergraduate + 6,958 graduate). Medium means 10,000–24,999 total students; mathematics cohort size not verified."
+  },
+  "princeton-university": {
+    "checked": "2026-11-09",
+    "note": "Official research groups include analysis, mathematical physics, probability, topology and combinatorics beyond the source PDF’s adviser focus. First-year funding includes tuition and health coverage; later years normally involve teaching or grading.",
+    "sources": [
+      {
+        "label": "Graduate admissions",
+        "url": "https://www.math.princeton.edu/graduate/admissions",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Research groups",
+        "url": "https://www.math.princeton.edu/graduate/faculty-research?field_position_role_target_id=1",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Financial support",
+        "url": "https://www.math.princeton.edu/graduate/financial-support",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "University enrollment",
+        "url": "https://profile.princeton.edu/about-princeton-university",
+        "checked": "2026-11-09"
+      }
+    ],
+    "areas": [
+      "Algebraic geometry",
+      "Analysis & PDE",
+      "Applied mathematics",
+      "Combinatorics",
+      "Geometry",
+      "Mathematical physics",
+      "Number theory",
+      "Probability",
+      "Topology"
+    ],
+    "schoolSize": "Small",
+    "size": "9,332 university students in 2025–2026 (5,825 undergraduate, 3,365 graduate and 142 special students). Small means fewer than 10,000 total students; mathematics cohort size not verified."
+  },
+  "university-of-michigan-ann-arbor": {
+    "checked": "2026-11-09",
+    "note": "PhD and master’s deadlines differ. The department reports 155 mathematics graduate students for 2026–2027; about 83% are PhD students. This is department scale, not university enrollment.",
+    "sources": [
+      {
+        "label": "Graduate admissions and cohort",
+        "url": "https://lsa.umich.edu/math/graduates/Admissions.html",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Funding terms",
+        "url": "https://lsa.umich.edu/math/graduates/student-handbook---aim---math/Funding.html",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Karen Smith research",
+        "url": "https://lsa.umich.edu/math/people/faculty/kesmith.html",
+        "checked": "2026-11-09"
+      }
+    ],
+    "deadline": "2026-12-15",
+    "deadlineDetails": "[2027 confirmed · checked 2026-11-09] PhD: December 15, 2026. Master’s: February 1, 2027. The PhD snapshot date must not be used for the master’s route.",
+    "size": "155 mathematics graduate students in 2026–2027; approximately 83% in the PhD program. University enrollment category not verified."
+  },
+  "university-of-california-los-angeles": {
+    "checked": "2026-11-09",
+    "note": "The department page still contains prior-cycle testing text. Do not treat its recurring December 13 date or old GRE passage as a confirmed Fall 2027 requirement.",
+    "sources": [
+      {
+        "label": "Graduate admissions",
+        "url": "https://ww3.math.ucla.edu/admissions/",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Analysis and PDE group",
+        "url": "https://ww3.math.ucla.edu/research-areas/elementor-1671/",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Terence Tao research",
+        "url": "https://www.math.ucla.edu/~tao/",
+        "checked": "2026-11-09"
+      }
+    ],
+    "areas": [
+      "Analysis & PDE",
+      "Combinatorics",
+      "Number theory"
+    ]
+  },
+  "university-of-toronto": {
+    "checked": "2026-11-09",
+    "note": "Full-time MSc and doctoral admits receive conditional financial support; the published funding periods are one year for MSc, four years for PhD and five years for direct-entry PhD. Part-time study is not department-funded.",
+    "sources": [
+      {
+        "label": "Graduate tuition and funding",
+        "url": "https://www.mathematics.utoronto.ca/graduate/current-msc-students/tuition-funding",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Jacob Tsimerman research",
+        "url": "https://www.mathematics.utoronto.ca/people/directories/all-faculty/jacob-tsimerman",
+        "checked": "2026-11-09"
+      }
+    ]
+  },
+  "university-of-british-columbia": {
+    "checked": "2026-11-09",
+    "note": "The official September 2027 PhD entry distinguishes the online application deadline from transcript and referee deadlines. A supervisor commitment before application is not required.",
+    "sources": [
+      {
+        "label": "September 2027 PhD admissions",
+        "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Harmonic analysis group",
+        "url": "https://webdrupal.math.ubc.ca/node/2271",
+        "checked": "2026-11-09"
+      }
+    ],
+    "deadline": "2026-12-23",
+    "deadlineDetails": "[2027 confirmed · checked 2026-11-09] September 2027 PhD online application: December 23, 2026, for domestic and international applicants. Transcripts and references: December 31, 2026. The source does not specify a cutoff time.",
+    "areas": [
+      "Analysis & PDE",
+      "Geometry",
+      "Combinatorics",
+      "Dynamical systems"
+    ]
+  },
+  "university-of-waterloo": {
+    "checked": "2026-11-09",
+    "note": "The Pure Mathematics department lists approximately 60 graduate students and 30 faculty. This profile concerns Pure Mathematics; Applied Mathematics and Combinatorics & Optimization have separate applications.",
+    "sources": [
+      {
+        "label": "Pure Mathematics department",
+        "url": "https://uwaterloo.ca/pure-mathematics/",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Graduate research areas",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Ben Webster research",
+        "url": "https://uwaterloo.ca/pure-mathematics-algebra/about/people/b2webste",
+        "checked": "2026-11-09"
+      }
+    ],
+    "areas": [
+      "Analysis & PDE",
+      "Geometry",
+      "Topology",
+      "Number theory",
+      "Algebra & representation theory",
+      "Logic"
+    ],
+    "size": "Approximately 60 Pure Mathematics graduate students and 30 faculty, according to the department homepage checked November 9, 2026. University enrollment category not verified."
+  },
+  "university-of-oxford": {
+    "checked": "2026-11-09",
+    "note": "The department explains that the DPhil begins with research and normally lasts three to four years. Its overview still lists January/March 2026 deadlines; these are not imported as 2027 dates.",
+    "sources": [
+      {
+        "label": "DPhil and research groups",
+        "url": "https://www.maths.ox.ac.uk/study-here/postgraduate-study/doctor-philosophy-dphil",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Application FAQs",
+        "url": "https://www.maths.ox.ac.uk/study-here/postgraduate-study/frequently-asked-questions",
+        "checked": "2026-11-09"
+      }
+    ],
+    "areas": [
+      "Algebra & representation theory",
+      "Algebraic geometry",
+      "Combinatorics",
+      "Analysis & PDE",
+      "Geometry",
+      "Logic",
+      "Mathematical physics",
+      "Number theory",
+      "Applied mathematics",
+      "Probability",
+      "Topology"
+    ]
+  },
+  "university-of-cambridge": {
+    "checked": "2026-11-09",
+    "note": "DPMMS and DAMTP have distinct application routes. Research alignment and supervisor capacity matter; the faculty encourages applicants to pursue multiple funding sources.",
+    "sources": [
+      {
+        "label": "Research degrees and areas",
+        "url": "https://www.maths.cam.ac.uk/postgrad/research-degrees",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "PhD applicant FAQs",
+        "url": "https://www.maths.cam.ac.uk/postgrad/phd-applicant-faqs",
+        "checked": "2026-11-09"
+      }
+    ],
+    "areas": [
+      "Algebra & representation theory",
+      "Algebraic geometry",
+      "Analysis & PDE",
+      "Combinatorics",
+      "Geometry",
+      "Topology",
+      "Logic",
+      "Number theory",
+      "Probability",
+      "Applied mathematics",
+      "Mathematical physics"
+    ]
+  },
+  "university-of-warwick": {
+    "checked": "2026-11-09",
+    "note": "The department cites QS Mathematics 2026 rank 28. Its PhD page describes a 100+ postgraduate cohort and almost 100 academics; this does not measure the entire university.",
+    "sources": [
+      {
+        "label": "PhD overview and QS Mathematics 2026 rank",
+        "url": "https://warwick.ac.uk/fac/sci/maths/studywithus/postgraduateresearch/",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "2027 MPhil/PhD course",
+        "url": "https://warwick.ac.uk/study/postgraduate/courses/mphil-phd-mathematics/",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "David Bate research",
+        "url": "https://warwick.ac.uk/fac/sci/maths/people/staff/bate/",
+        "checked": "2026-11-09"
+      }
+    ],
+    "rank": 28,
+    "rankSource": "QS Mathematics 2026, as cited by the University of Warwick",
+    "size": "The PhD course page describes more than 100 postgraduate students and almost 100 mathematics academics. University enrollment category not verified."
+  },
+  "eth-zurich": {
+    "checked": "2026-11-09",
+    "note": "ETH directs international mathematics doctoral applicants to ZGSM. Doctorates are generally associated with employment; registration requires a completed master’s and an agreed doctoral position.",
+    "sources": [
+      {
+        "label": "Mathematics doctorate admission",
+        "url": "https://math.ethz.ch/doctorate/admission.html",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Doctorate admission requirements",
+        "url": "https://ethz.ch/en/doctorate/registration-admission/zulassungsbedingungen.html",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Alessio Figalli research",
+        "url": "https://people.math.ethz.ch/~afigalli/",
+        "checked": "2026-11-09"
+      }
+    ],
+    "areas": [
+      "Analysis & PDE",
+      "Geometry"
+    ]
+  },
+  "university-of-bonn-bigs-mathematics-mpim": {
+    "checked": "2026-11-09",
+    "note": "BIGS requires a mathematics master’s or equivalent. Admission does not automatically provide funding. Doctoral teaching uses English; German is not required for doctoral study.",
+    "sources": [
+      {
+        "label": "BIGS PhD admission",
+        "url": "https://www.mathematics.uni-bonn.de/hsm-school/phd-admission/phd-admission",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "BIGS doctoral study",
+        "url": "https://www.mathematics.uni-bonn.de/hsm-school/bigs",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Arithmetic geometry and representation theory",
+        "url": "https://www.math.uni-bonn.de/ag/alggeom/?language=en",
+        "checked": "2026-11-09"
+      }
+    ]
+  },
+  "national-university-of-singapore": {
+    "checked": "2026-11-09",
+    "note": "The PhD page lists recurring November 15 (next August intake) and May 15 (next January intake) deadlines. Scholarships are competitive and renewed annually, ordinarily up to four years subject to progress; these dates are not relabeled as explicit cycle confirmations.",
+    "sources": [
+      {
+        "label": "Prospective PhD students",
+        "url": "https://www.math.nus.edu.sg/pg/phd/phd-prospective/",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Pure mathematics research",
+        "url": "https://www.math.nus.edu.sg/research/research-in-pure-mathematics/",
+        "checked": "2026-11-09"
+      },
+      {
+        "label": "Regular faculty",
+        "url": "https://www.math.nus.edu.sg/people/regular-faculty/?keyword=matrw",
+        "checked": "2026-11-09"
+      }
+    ],
+    "areas": [
+      "Algebra & representation theory",
+      "Number theory",
+      "Algebraic geometry",
+      "Combinatorics",
+      "Dynamical systems",
+      "Applied mathematics"
+    ]
+  }
+}

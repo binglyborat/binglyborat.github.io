@@ -1,0 +1,6 @@
+/** Explicit rural-setting evidence; college towns are not automatically rural. */
+export const CAMPUS_CONTEXT = {
+ 'university-of-connecticut': {ruralCampus:true,ruralEvidence:{summary:'The Storrs campus master plan describes the main campus as a land-grant university in a rural setting. This classification is specific to Storrs, not the regional campuses.',label:'UConn Storrs campus master plan',url:'https://masterplan.media.uconn.edu/wp-content/uploads/sites/680/2024/07/01_CAMPUS_MASTER_PLAN_WEB.pdf',checked:'2026-11-09'}},
+ 'washington-state-university': {ruralCampus:true,ruralEvidence:{summary:'WSU’s campus design guidelines describe Pullman as a rural town in the Palouse. The classification applies to the Pullman campus.',label:'WSU Pullman campus design guidelines, regional context',url:'https://s3.wp.wsu.edu/uploads/sites/2870/2023/02/Design-Guidelines_V7.pdf',checked:'2026-11-09'}},
+ 'dartmouth-college': {ruralCampus:true,ruralEvidence:{summary:'Dartmouth describes its Hanover campus setting as rural. Hanover also has a walkable town center; rural does not mean there are no local amenities.',label:'Dartmouth campus setting',url:'https://www.dartmouth.edu/hr/employment/careers_dartmouth/talent_acquisition/history.php',checked:'2026-11-09'}},
+};

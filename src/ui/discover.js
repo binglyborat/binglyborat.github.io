@@ -1,0 +1,15 @@
+import { e, icon, button, options } from './components.js';
+import { schoolCard } from './school.js';
+import {canGoBack,canGoNext} from '../core/review.js';
+
+/** Navigation history and review decisions are deliberately independent. */
+export function discoverView({ state, catalog, matches, queue, active, dossier }) {
+  const index = active ? queue.findIndex(item => item.school.id === active.school.id) : -1;
+  const reviewed = Object.values(state.records).filter(record => record.decision !== 'unreviewed').length;
+  const count = matches.length;
+  return `<div class="review-toolbar">
+    <div class="review-position"><strong>${active ? index>=0?`School ${index+1} of ${queue.length}`:'Previously viewed school' : 'School review'}</strong><span>${count} of ${catalog.length} match your filters · ${reviewed} reviewed</span></div>
+    <div class="review-tools"><select class="select" data-ui="queueScope" aria-label="Schools to review">${options([['unreviewed','Unreviewed'],['all','All matches'],['saved','Saved'],['passed','Passed'],['flagged','Flagged']],state.ui.queueScope||'unreviewed')}</select>${button('previous',icon('back'),'ghost icon-button',`aria-label="Previous school" ${canGoBack(state)?'':'disabled'}`)}${button('next',icon('arrow'),'ghost icon-button',`aria-label="Next school without deciding" ${canGoNext(matches,state)?'':'disabled'}`)}${button('undo',`${icon('undo')} <span>Undo</span>`,'ghost small',`aria-label="Undo last decision" ${state.ui.history?.length?'':'disabled'}`)}<details class="utility-menu review-menu"><summary class="button ghost small" aria-label="Review options">${icon('more')}</summary><div class="utility-dropdown">${button('review-history','Recently viewed','ghost small')}${button('restart-review','Restart review · keep choices','ghost small')}${button('reset-decisions','Reset saved / passed decisions','ghost small')}${state.ui.decisionUndo?button('undo-decision-reset','Undo decision reset','ghost small'):''}${button('profile-step','Edit school filters','ghost small','data-step="schools"')}</div></details></div>
+  </div>
+  ${active ? `${!matches.some(m=>m.school.id===active.school.id)?'<p class="review-filter-notice">This previously viewed school is outside your current filters.</p>':''}${schoolCard(active.school,state,active,dossier)}` : `<section class="review-empty empty-state"><span class="empty-symbol" aria-hidden="true">${count?'✓':'∩'}</span><h1>${count?'End of this review':'No schools match your filters'}</h1><p>${count?'Return to recently viewed schools, change the review group, or start again. Your decisions and notes are saved.':'Change or clear school filters in Profile to include more schools.'}</p><div class="inline-actions">${button(count?'restart-review':'profile-step',count?'Review all matches again':'Edit school filters','primary',count?'':'data-step="schools"')}${count?button('review-history','Recently viewed','secondary'):button('reset-filters','Clear school filters','secondary')}</div>${state.ui.decisionUndo?button('undo-decision-reset','Undo decision reset','ghost'):''}</section>`}`;
+}

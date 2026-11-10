@@ -1,0 +1,1155 @@
+{
+  "Arizona State University": {
+    "city": "Tempe",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Auburn University": {
+    "city": "Auburn",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Baylor University": {
+    "city": "Waco",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Binghamton University, SUNY": {
+    "city": "Vestal",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Boston College": {
+    "city": "Chestnut Hill",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Boston University": {
+    "city": "Boston",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Brandeis University": {
+    "city": "Waltham",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Brigham Young University": {
+    "city": "Provo",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Brown University": {
+    "city": "Providence",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "California Institute of Technology": {
+    "city": "Pasadena",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Carnegie Mellon University": {
+    "city": "Pittsburgh",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Case Western Reserve University": {
+    "city": "Cleveland",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Clemson University": {
+    "city": "Clemson",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Colorado State University": {
+    "city": "Fort Collins",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Columbia University": {
+    "city": "New York City",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Cornell University": {
+    "city": "Ithaca",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "CUNY Graduate Center": {
+    "city": "New York City",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Dartmouth College": {
+    "city": "Hanover",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Drexel University": {
+    "city": "Philadelphia",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Duke University": {
+    "city": "Durham",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Emory University": {
+    "city": "Atlanta",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Florida State University": {
+    "city": "Tallahassee",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "George Mason University": {
+    "city": "Fairfax",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "George Washington University": {
+    "city": "Washington, DC",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Georgia Institute of Technology": {
+    "city": "Atlanta",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Harvard University": {
+    "city": "Cambridge",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Indiana University Bloomington": {
+    "city": "Bloomington",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Iowa State University": {
+    "city": "Ames",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Johns Hopkins University": {
+    "city": "Baltimore",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Kansas State University": {
+    "city": "Manhattan",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Lehigh University": {
+    "city": "Bethlehem",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Louisiana State University": {
+    "city": "Baton Rouge",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Massachusetts Institute of Technology": {
+    "city": "Cambridge",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Michigan State University": {
+    "city": "East Lansing",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "New York University  -  Courant Institute": {
+    "city": "New York City",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "North Carolina State University": {
+    "city": "Raleigh",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Northeastern University": {
+    "city": "Boston",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Northwestern University": {
+    "city": "Evanston",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Ohio State University": {
+    "city": "Columbus",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Oklahoma State University": {
+    "city": "Stillwater",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Oregon State University": {
+    "city": "Corvallis",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Pennsylvania State University-University Park": {
+    "city": "University Park",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Princeton University": {
+    "city": "Princeton",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Purdue University-West Lafayette": {
+    "city": "West Lafayette",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Rensselaer Polytechnic Institute": {
+    "city": "Troy",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Rice University": {
+    "city": "Houston",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Rutgers University-New Brunswick": {
+    "city": "New Brunswick / Piscataway",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Stanford University": {
+    "city": "Stanford",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Stony Brook University (SUNY)": {
+    "city": "Stony Brook",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Syracuse University": {
+    "city": "Syracuse",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Temple University": {
+    "city": "Philadelphia",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Texas A&M University, College Station": {
+    "city": "College Station",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Texas Tech University": {
+    "city": "Lubbock",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Tufts University": {
+    "city": "Medford / Somerville",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Tulane University": {
+    "city": "New Orleans",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University at Buffalo, SUNY": {
+    "city": "Amherst",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Alabama - Tuscaloosa": {
+    "city": "Tuscaloosa",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Arizona": {
+    "city": "Tucson",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of California, Berkeley": {
+    "city": "Berkeley",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of California, Davis": {
+    "city": "Davis",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of California, Irvine": {
+    "city": "Irvine",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of California, Los Angeles": {
+    "city": "Los Angeles",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of California, Riverside": {
+    "city": "Riverside",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of California, San Diego": {
+    "city": "San Diego",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of California, Santa Barbara": {
+    "city": "Santa Barbara / Isla Vista",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of California, Santa Cruz": {
+    "city": "Santa Cruz",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Chicago": {
+    "city": "Chicago",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Cincinnati": {
+    "city": "Cincinnati",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Colorado Boulder": {
+    "city": "Boulder",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Connecticut": {
+    "city": "Storrs",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Delaware": {
+    "city": "Newark",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Florida": {
+    "city": "Gainesville",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Georgia": {
+    "city": "Athens",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Houston": {
+    "city": "Houston",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Illinois Chicago": {
+    "city": "Chicago",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Illinois Urbana-Champaign": {
+    "city": "Urbana / Champaign",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Iowa": {
+    "city": "Iowa City",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Kansas": {
+    "city": "Lawrence",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Kentucky": {
+    "city": "Lexington",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Maryland - College Park": {
+    "city": "College Park",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Massachusetts Amherst": {
+    "city": "Amherst",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Miami (Florida)": {
+    "city": "Coral Gables",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Michigan  -  Ann Arbor": {
+    "city": "Ann Arbor",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Minnesota - Twin Cities": {
+    "city": "Minneapolis",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Missouri-Columbia": {
+    "city": "Columbia",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Nebraska-Lincoln": {
+    "city": "Lincoln",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of New Mexico": {
+    "city": "Albuquerque",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of North Carolina at Chapel Hill": {
+    "city": "Chapel Hill",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Notre Dame": {
+    "city": "Notre Dame / South Bend",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Oklahoma-Norman": {
+    "city": "Norman",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Oregon": {
+    "city": "Eugene",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Pennsylvania": {
+    "city": "Philadelphia",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Pittsburgh": {
+    "city": "Pittsburgh",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Rochester": {
+    "city": "Rochester",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of South Carolina": {
+    "city": "Columbia",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Southern California": {
+    "city": "Los Angeles",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Tennessee, Knoxville": {
+    "city": "Knoxville",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Texas at Arlington": {
+    "city": "Arlington",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Texas at Austin": {
+    "city": "Austin",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Texas at Dallas": {
+    "city": "Richardson",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Utah": {
+    "city": "Salt Lake City",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Virginia": {
+    "city": "Charlottesville",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Washington, Seattle": {
+    "city": "Seattle",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Wisconsin-Madison": {
+    "city": "Madison",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Vanderbilt University": {
+    "city": "Nashville",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Virginia Tech": {
+    "city": "Blacksburg",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Washington State University": {
+    "city": "Pullman",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Washington University in St. Louis": {
+    "city": "St. Louis",
+    "country": "United States",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Wayne State University": {
+    "city": "Detroit",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Wesleyan University": {
+    "city": "Middletown",
+    "country": "United States",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Worcester Polytechnic Institute": {
+    "city": "Worcester",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Yale University": {
+    "city": "New Haven",
+    "country": "United States",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "McGill University": {
+    "city": "Montréal",
+    "country": "Canada",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "McMaster University": {
+    "city": "Hamilton",
+    "country": "Canada",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Queen’s University": {
+    "city": "Kingston",
+    "country": "Canada",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Simon Fraser University": {
+    "city": "Burnaby",
+    "country": "Canada",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Alberta": {
+    "city": "Edmonton",
+    "country": "Canada",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of British Columbia": {
+    "city": "Vancouver",
+    "country": "Canada",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications.",
+    "cityNotes": "This mathematics dossier concerns the Vancouver campus. UBC Okanagan is a separate campus in Kelowna."
+  },
+  "University of Calgary": {
+    "city": "Calgary",
+    "country": "Canada",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Ottawa": {
+    "city": "Ottawa",
+    "country": "Canada",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Toronto": {
+    "city": "Toronto",
+    "country": "Canada",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Victoria": {
+    "city": "Victoria",
+    "country": "Canada",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Waterloo": {
+    "city": "Waterloo",
+    "country": "Canada",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Université de Montréal": {
+    "city": "Montréal",
+    "country": "Canada",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "York University": {
+    "city": "Toronto",
+    "country": "Canada",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Aarhus University": {
+    "city": "Aarhus",
+    "country": "Denmark",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "ALGANT consortium": {
+    "city": "Multiple cities",
+    "country": "Europe / Canada",
+    "setting": "Unknown",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications.",
+    "cityNotes": "A consortium with study across participating universities in Europe and Canada. City and country depend on the selected route; check the specific partner campuses."
+  },
+  "ETH Zurich": {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Heidelberg University": {
+    "city": "Heidelberg",
+    "country": "Germany",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Imperial College London": {
+    "city": "London",
+    "country": "United Kingdom",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Institute of Science and Technology Austria (ISTA)": {
+    "city": "Klosterneuburg",
+    "country": "Austria",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "KU Leuven": {
+    "city": "Leuven",
+    "country": "Belgium",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Leiden University": {
+    "city": "Leiden",
+    "country": "Netherlands",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "London School of Geometry and Number Theory": {
+    "city": "London",
+    "country": "United Kingdom",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Scuola Normale Superiore di Pisa": {
+    "city": "Pisa",
+    "country": "Italy",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "SISSA  -  International School for Advanced Studies, Trieste": {
+    "city": "Trieste",
+    "country": "Italy",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Sorbonne Université": {
+    "city": "Paris",
+    "country": "France",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Technical University of Munich (TUM)": {
+    "city": "Garching",
+    "country": "Germany",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications.",
+    "cityNotes": "The mathematics department is at the Garching research campus, north of Munich; consider commuting and accommodation in both places."
+  },
+  "University College London (UCL)": {
+    "city": "London",
+    "country": "United Kingdom",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Amsterdam (UvA)": {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Bonn / BIGS Mathematics / MPIM": {
+    "city": "Bonn",
+    "country": "Germany",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Cambridge": {
+    "city": "Cambridge",
+    "country": "United Kingdom",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Copenhagen": {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Edinburgh and AGQ CDT (with Glasgow and Heriot-Watt)": {
+    "city": "Edinburgh / Glasgow",
+    "country": "United Kingdom",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications.",
+    "cityNotes": "The dossier combines Edinburgh routes with the AGQ doctoral training collaboration involving Edinburgh, Glasgow and Heriot-Watt. Campus depends on the route and supervision."
+  },
+  "University of Freiburg": {
+    "city": "Freiburg",
+    "country": "Germany",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Münster": {
+    "city": "Münster",
+    "country": "Germany",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Oxford": {
+    "city": "Oxford",
+    "country": "United Kingdom",
+    "setting": "College town",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Pisa": {
+    "city": "Pisa",
+    "country": "Italy",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Vienna / Vienna School of Mathematics": {
+    "city": "Vienna",
+    "country": "Austria",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Warwick": {
+    "city": "Coventry",
+    "country": "United Kingdom",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Université de Strasbourg": {
+    "city": "Strasbourg",
+    "country": "France",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Université Paris-Saclay (Orsay / Hadamard)": {
+    "city": "Orsay",
+    "country": "France",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Utrecht University": {
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "École normale supérieure-PSL (Paris)": {
+    "city": "Paris",
+    "country": "France",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "École polytechnique fédérale de Lausanne (EPFL)": {
+    "city": "Lausanne / Ecublens",
+    "country": "Switzerland",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Chinese University of Hong Kong": {
+    "city": "Hong Kong (Sha Tin)",
+    "country": "Hong Kong SAR, China",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Hong Kong University of Science and Technology": {
+    "city": "Hong Kong (Clear Water Bay)",
+    "country": "Hong Kong SAR, China",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Kyoto University": {
+    "city": "Kyoto",
+    "country": "Japan",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Nanyang Technological University": {
+    "city": "Singapore",
+    "country": "Singapore",
+    "setting": "Suburban",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "National University of Singapore": {
+    "city": "Singapore",
+    "country": "Singapore",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Peking University (School of Mathematical Sciences / BICMR)": {
+    "city": "Beijing",
+    "country": "China",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "Tsinghua University  -  Mathematics Department and Qiuzhen College": {
+    "city": "Beijing",
+    "country": "China",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Hong Kong": {
+    "city": "Hong Kong",
+    "country": "Hong Kong SAR, China",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications."
+  },
+  "University of Tokyo": {
+    "city": "Tokyo",
+    "country": "Japan",
+    "setting": "City",
+    "schoolSize": "Unknown",
+    "locationBasis": "Main mathematics campus geography; campus-setting categories are editorial descriptions, not official classifications.",
+    "cityNotes": "The Graduate School of Mathematical Sciences is at Komaba in Tokyo. Other University of Tokyo graduate schools may use different campuses."
+  }
+}

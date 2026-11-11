@@ -9,11 +9,12 @@ const facultyNames = (school) => list(school.faculty).map((person) => typeof per
 
 export function filterSchools(schools, prefs = {}) {
   return schools.filter((school) => {
+    if (requested(prefs, 'excludedIds').includes(school.id)) return false;
     if (includes(requested(prefs, 'excludedCities'), school.city)) return false;
     if (prefs.excludeRural && isRuralCampus(school)) return false;
     for (const [key, schoolKey] of [['countries', 'country'], ['settings', 'setting'], ['sizes', 'schoolSize'], ['degrees', 'degree'],['programTypes','programType']]) {
       const values = key==='countries'?expandCountrySelections(requested(prefs,key)):requested(prefs, key);
-      const actual = key==='countries'?schoolCountries(school):Array.isArray(school[schoolKey]) ? school[schoolKey] : [school[schoolKey]];
+      const actual = key==='countries'?schoolCountries(school):key==='settings'?[isRuralCampus(school)?'Rural':school.setting]:Array.isArray(school[schoolKey]) ? school[schoolKey] : [school[schoolKey]];
       if (values.length && !actual.some((value) => includes(values, value))) return false;
     }
     if (prefs.query?.trim()) {
@@ -29,8 +30,14 @@ export function filterSchools(schools, prefs = {}) {
     }
     const areas = Object.hasOwn(prefs, 'requiredAreas') ? requested(prefs, 'requiredAreas') : prefs.requireAreas ? requested(prefs, 'areas') : [];
     if (areas.length) {
-      const matches = areas.map((area) => includes(list(school.areas), area));
-      if (prefs.areaMode === 'all' ? !matches.every(Boolean) : !matches.some(Boolean)) return false;
+      const matches = areas.filter((area) => includes(list(school.areas), area)).length;
+      const minimum = String(prefs.areaMode).trim().toLowerCase() === 'all' ? areas.length : Math.max(1, Math.floor(Number(prefs.areaMode) || 1));
+      if (matches < minimum) return false;
+    }
+    const maxRank = Math.max(0, Number(prefs.filterMaxRank) || 0);
+    if (maxRank) {
+      const rank = Number(school.rank), documented = school.rank != null && Number.isFinite(rank) && rank > 0;
+      if (documented ? rank > maxRank : !prefs.filterIncludeUnranked) return false;
     }
     // Retired city/name/rank requirements remain in old backups but no longer
     // silently exclude schools. Their replacement controls are explicit above.

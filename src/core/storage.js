@@ -11,12 +11,13 @@ const clone = (value) => JSON.parse(JSON.stringify(value));
 export const defaultPrefs = {
   knownPeople: [], areas: [], countries: [], cities: [], settings: [], sizes: [], degrees: [], programTypes: [], facultyQuery: '',
   excludedCities: [], excludeRural: false, connectionPeople: [], preferredMaxRank: 0,
+  filterMaxRank: 0, filterIncludeUnranked: false,
   maxRank: 0, includeUnranked: true, weights: { research: 5, location: 3, faculty: 3, size: 1, ranking: 2, connections: 3 },
-  areaMode: 'any', query: '', excludedIds: [], requireAreas: false, requireFaculty: false,
+  areaMode: '1', query: '', excludedIds: [], requireAreas: false, requireFaculty: false,
   requiredAreas: [], requiredFacultyQuery: '',
   preferredCountries: [], preferredCities: [], preferredSizes: [],
   fundingQuery: '', internationalQuery: '', deadlineQuery: '', applicationQuery: '',
-  details: ['department', 'research', 'faculty', 'funding', 'admissions', 'international', 'city', 'size', 'deadlines','connections','committee'],
+  details: ['department', 'research', 'faculty', 'funding', 'admissions', 'international', 'city', 'size','connections','committee'],
 };
 
 export function createDefaultState() {
@@ -42,13 +43,21 @@ export function normalizeState(raw) {
     else if (typeof fallback === 'string') state.prefs[key] = typeof value === 'string' ? value : fallback;
   }
   state.prefs.maxRank = Math.max(0, Math.min(10000, Number(prefs.maxRank) || 0));
+  state.prefs.filterMaxRank = Math.max(0, Math.min(10000, Math.floor(Number(prefs.filterMaxRank) || 0)));
   state.prefs.preferredMaxRank = Math.max(0, Math.min(10000, Number(Object.hasOwn(prefs,'preferredMaxRank')?prefs.preferredMaxRank:prefs.maxRank) || 0));
   // Retired city inclusions become soft preferences once. Preserve the old keys
   // for backups, but never turn them into new exclusions or reapply them later.
   if (!Object.hasOwn(prefs,'excludedCities')) state.prefs.preferredCities = strings([...state.prefs.preferredCities,...state.prefs.cities]);
   state.prefs.countries = expandCountrySelections(state.prefs.countries);
   state.prefs.preferredCountries = expandCountrySelections(state.prefs.preferredCountries);
-  state.prefs.areaMode = prefs.areaMode === 'all' ? 'all' : 'any';
+  // Convert the former separate rural veto into visible setting selections.
+  if (state.prefs.excludeRural) {
+    state.prefs.settings = (state.prefs.settings.length ? state.prefs.settings : ['City','College town','Suburban','Unknown']).filter(setting=>setting!=='Rural');
+    state.prefs.excludeRural = false;
+  }
+  const areaMode = String(prefs.areaMode ?? '1').trim().toLowerCase();
+  state.prefs.areaMode = areaMode === 'all' ? 'all' : String(Math.max(1, Math.min(Number.MAX_SAFE_INTEGER, Math.floor(Number(areaMode) || 1))));
+  state.prefs.details = [...new Set(state.prefs.details.map(key=>key==='deadlines'?'admissions':key))];
   state.prefs.details = state.prefs.details.filter((key) => defaultPrefs.details.includes(key));
   if (!raw.ui?.departmentNotesIntroduced && Array.isArray(prefs.details) && state.prefs.details.length && !state.prefs.details.includes('department')) state.prefs.details.unshift('department');
   // Preserve existing required matches while separating them from soft priorities.
@@ -85,6 +94,9 @@ export function normalizeState(raw) {
   // UI keys may evolve independently; retain JSON-safe, own keys.
   if (object(raw.ui)) for (const [key, value] of Object.entries(raw.ui)) if (safeKey(key) && value !== undefined) state.ui[key] = clone(value);
   const ui = state.ui;
+  if(ui.view==='report')ui.view='data';
+  if(ui.schoolTab==='dossier')ui.schoolTab=state.prefs.details[0]||'notes';
+  if (ui.schoolTab === 'deadlines') ui.schoolTab = 'admissions';
   if(!['discover','collection','preferences','export','report','data'].includes(ui.view))ui.view='preferences';
   if(Object.hasOwn(ui,'trackerStep')&&!['fields','columns','export'].includes(ui.trackerStep))ui.trackerStep='export';
   for (const [key, allowed] of Object.entries({profileStep:['home','schools','priorities','cards','people'],filterStep:['location','academic','requirements'],priorityStep:['research','location','people','ranking']})) {

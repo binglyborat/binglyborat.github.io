@@ -6,6 +6,8 @@ import {personId} from '../core/network.js';
 import {schoolCountries} from '../core/geography.js';
 import {CAMPUS_CONTEXT} from './campus-context.js';
 import {DEPARTMENT_NOTES} from './department-notes.js';
+import {graduateMathRank,schoolRankings} from '../core/school-facts.js';
+import {enrichFaculty} from '../core/faculty.js';
 
 export const CONNECTIONS_META=CONNECTIONS.meta||{};
 const sizeClass=total=>total<10000?'Small':total<25000?'Medium':'Large';
@@ -20,13 +22,15 @@ const institutions=SCHOOLS.map(base=>{
  const size=total?`${enrollment.approximate?'Approximately ':''}${total.toLocaleString('en-US')} students · ${enrollment.year}\nScope: ${enrollment.scope}\n${enrollment.notes||''}\nSource: ${enrollment.source.label} (${enrollment.source.kind||'research source'})\n${enrollment.source.url}`:research.enrollmentNote||base.size;
  const additions=(CONNECTIONS.people||[]).filter(p=>p.schoolId===base.id&&p.identityStatus==='verified'&&['current','emeritus'].includes(p.affiliationStatus));
  const movedIds=new Set((CONNECTIONS.people||[]).flatMap(p=>p.previousPersonIds||[]));
- const faculty=base.faculty.filter(p=>!movedIds.has(personId(base.id,p.name)));
+ let faculty=base.faculty.filter(p=>!movedIds.has(personId(base.id,p.name)));
  for(const p of additions){
   const index=faculty.findIndex(f=>f.name===p.name),profile={name:p.name,role:p.role,status:p.affiliationStatus,url:p.sources?.[0]?.url};
   if(index<0)faculty.push({...profile,areas:p.areas||[]});
   else faculty[index]={...faculty[index],...profile};
  }
- return {...base,...campus,countries:schoolCountries(base),faculty,institutionId:base.id,institutionName:base.name,programType:base.degree.length>1?'Department overview':base.degree.includes('PhD')?'Research doctorate':'Master’s program',research,enrollment,schoolSize:total&&enrollment.comparable!==false?sizeClass(total):base.schoolSize,size,
+ faculty=enrichFaculty(base.id,faculty);
+ const rankings=schoolRankings(base),rank=graduateMathRank({...base,rankings});
+ return {...base,...campus,rankings,rank:rank?.rank??null,rankSource:rank?`${rank.system} graduate mathematics · ${rank.year}`:'',rankNote:rank?`US doctoral mathematics departments; ${rank.year} edition. ${rank.url}`:'No verified U.S. News graduate mathematics rank.',areas:[...new Set([...base.areas,...faculty.flatMap(p=>p.areas||[])])],countries:schoolCountries(base),faculty,institutionId:base.id,institutionName:base.name,programType:base.degree.length>1?'Department overview':base.degree.includes('PhD')?'Research doctorate':'Master’s program',research,enrollment,schoolSize:total&&enrollment.comparable!==false?sizeClass(total):base.schoolSize,size,
   letters:research.admissionsResearch?.letters||base.letters,
   deadlineDetails:research.admissionsResearch?.deadlineDetails||base.deadlineDetails,
   committee,connections,locationResearch:research.locationResearch,

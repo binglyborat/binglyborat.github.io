@@ -27,12 +27,13 @@ const clone=value=>JSON.parse(JSON.stringify(value));
 const catalog=CATALOG;
 let cleanupMap=()=>{};
 const dossiers=new Map();
+const detailRequests=new Set();
 let report=null, reportLoading=false, state, store, timer, toastTimer;
 let status={level:'ready',message:'Opening your workspace…'};
 let pending=0, dirty=false;
 let networkSelectionKey=null, networkRequest=null, exporting=false;
 let connectionFitCache=null, deferredRender=false;
-const views={discover:'Discover',collection:'My collection',preferences:'Preferences',export:'Tracker & export',report:'Source library',data:'Backups & storage'};
+const views={discover:'Discover',collection:'My collection',preferences:'Preferences',export:'Tracker & export',data:'Backups & storage'};
 const cancelSwipe=attachSwipe(app,{enabled:()=>state?.ui.view==='discover'&&!state.ui.detailId,onDecision:decide,
  onSettled:()=>queueMicrotask(()=>{if(deferredRender)render();})});
 const cancelCardReorder=attachCardReorder(app,{
@@ -137,6 +138,14 @@ function render() {
   body=school?`<div class="review-toolbar">${button('back-collection',`${icon('back')} My schools`,'ghost small')}<span class="muted">Review your choice</span>${button('profile-step','Edit my cards','ghost small','data-step="cards"')}</div>${schoolCard(school,state,scoreSchool(school,effectivePreferences(catalog,state.prefs),matchingContext()),dossiers.get(school.id))}`:collectionView(state,catalog);
  } else body=view==='discover'?reviewView():view==='collection'?collectionView(state,catalog):view==='preferences'?preferencesView(state,catalog):view==='export'?connectionLoadNotice(NETWORK,[...state.prefs.knownPeople,...(state.prefs.connectionPeople||[])])+exportView(state,catalog.map(school=>withConnections(school))):view==='report'?reportView(state,report):dataView(state,status);
  app.innerHTML=shell({state,body,review});
+ const card=app.querySelector('[data-school-id]');
+ if(card&&['faculty','admissions','funding','international'].includes(app.querySelector('[data-active-tab]')?.dataset.activeTab)){
+  const id=card.dataset.schoolId;
+  if(!dossiers.has(id)&&!detailRequests.has(id)){
+   detailRequests.add(id);
+   loadDossier(id).then(()=>{if(app.querySelector('[data-school-id]')?.dataset.schoolId===id)render();}).catch(()=>{});
+  }
+ }
  if(exporting)for(const target of app.querySelectorAll('[data-action="download-csv"]')){target.disabled=true;target.textContent='Preparing your sheet…';}
  if(view==='report'&&!report&&!reportLoading)loadReport();
  document.body.classList.toggle('review-mode',review);
@@ -163,7 +172,7 @@ async function loadDossier(id) {
  const school=catalog.find(s=>s.id===id);
  if(school.programRoute){const dossier=programDossier(school);dossiers.set(id,dossier);return dossier;}
  const response=await fetch(school.dossierUrl);
- if(!response.ok)throw new Error('The dossier could not be loaded. Check your connection and try again.');
+ if(!response.ok)throw new Error('The school details could not be loaded. Check your connection and try again.');
  const dossier=await response.json();dossiers.set(id,dossier);return dossier;
 }
 async function loadReport() {
@@ -214,7 +223,7 @@ async function action(target) {
  const {action:a,id}=target.dataset;
  try {
   if(a==='navigate')nav(target.dataset.view);
-  else if(a==='start-discover'){state.ui.schoolTab=state.prefs.details[0]||'dossier';nav('discover');}
+  else if(a==='start-discover'){state.ui.schoolTab=state.prefs.details[0]||'notes';nav('discover');}
   else if(a==='tracker-step'){state.ui.view='export';state.ui.detailId=null;state.ui.trackerStep=target.dataset.step;finishNavigation();}
   else if(a==='profile-step'){state.ui.view='preferences';state.ui.detailId=null;state.ui.profileStep=target.dataset.step;if(target.dataset.step==='people')state.ui.peoplePurpose='known';finishNavigation();}
   else if(a==='choose-connection-people'){state.ui.view='preferences';state.ui.detailId=null;state.ui.profileStep='people';state.ui.peoplePurpose='connections';state.ui.priorityStep='people';finishNavigation();}
@@ -241,6 +250,7 @@ async function action(target) {
   else if(a==='reset-filters'||a==='reset-priorities'||a==='reset-profile'||a==='reset-cards'){
    state.ui.preferenceUndo=clone(state.prefs);
    state.prefs=a==='reset-filters'?resetSchoolFilters(state.prefs):a==='reset-priorities'?resetPriorities(state.prefs):a==='reset-cards'?{...state.prefs,details:[...defaultPrefs.details]}:clone(defaultPrefs);
+   if(a==='reset-cards'||a==='reset-profile')state.ui.schoolTab=state.prefs.details[0]||'notes';
    state.ui.activeId=null;state.ui.reviewFinished=false;save();render();toast('Settings reset. School decisions and notes are preserved. Undo is available on My profile.');
   }
   else if(a==='undo-preferences'){if(state.ui.preferenceUndo){state.prefs=state.ui.preferenceUndo;delete state.ui.preferenceUndo;state.ui.activeId=null;state.ui.reviewFinished=false;save();render();}}
@@ -260,7 +270,7 @@ async function action(target) {
   else if(a==='include-all'){state.prefs.excludedIds=[];save();render();}
   else if(a==='open-school'){state.ui.detailId=id;finishNavigation();}
   else if(a==='back-collection'){state.ui.detailId=null;nav('collection');}
-  else if(a==='load-dossier'){target.disabled=true;target.textContent='Loading dossier…';await loadDossier(id);render();}
+  else if(a==='load-school-details'){target.disabled=true;target.textContent='Loading details…';await loadDossier(id);render();}
   else if(a==='export-preset'){state.fields.selected=applyExportPreset(state.fields.selected,target.dataset.preset);save();render();}
   else if(a==='move-export-field'){state.fields.selected=moveExportField(state.fields.selected,target.dataset.key,Number(target.dataset.direction));save();render();}
   else if(a==='export-none'||a==='export-all'){state.fields.selected=a==='export-none'?[]:[...BUILTIN_FIELDS.map(f=>f.key),...DOSSIER_FIELDS.map(f=>`dossier:${f}`),...state.fields.custom.map(f=>`custom:${f.id}`)];save();render();}
@@ -305,7 +315,7 @@ async function action(target) {
   else if(a==='report-prev'||a==='report-next'){state.ui.reportPage=Math.max(1,Math.min(1705,(Number(state.ui.reportPage)||1)+(a==='report-next'?1:-1)));save();render();}
   else if(a==='report-search')searchReport();
   else if(a==='report-result'){state.ui.reportPage=Number(target.dataset.page);save();render();}
- }catch(err){toast(err.message);if(target.isConnected){target.disabled=false;if(a==='load-dossier')target.textContent='Retry loading dossier';if(a==='download-csv')target.textContent='Retry CSV export';}}
+ }catch(err){toast(err.message);if(target.isConnected){target.disabled=false;if(a==='load-school-details')target.textContent='Retry loading details';if(a==='download-csv')target.textContent='Retry CSV export';}}
 }
 
 function searchReport() {
@@ -330,7 +340,7 @@ app.addEventListener('change',event=>{
 function handleInput(t,immediate) {
  let redraw=true;
  if(t.dataset.pref){state.prefs[t.dataset.pref]=t.type==='checkbox'?(t.hasAttribute('data-invert')?!t.checked:t.checked):t.type==='number'?Number(t.value):t.value;state.ui.activeId=null;}
- else if(t.dataset.prefArray){const key=t.dataset.prefArray;state.prefs[key]=t.checked?[...new Set([...state.prefs[key],t.value])]:state.prefs[key].filter(v=>v!==t.value);if(key!=='details')state.ui.activeId=null;}
+ else if(t.dataset.prefArray){const key=t.dataset.prefArray;state.prefs[key]=t.checked?[...new Set([...state.prefs[key],t.value])]:state.prefs[key].filter(v=>v!==t.value);if(key!=='details')state.ui.activeId=null;else if(!t.checked&&state.ui.schoolTab===t.value)state.ui.schoolTab=state.prefs.details[0]||'notes';}
  else if(t.dataset.addPref){if(!t.value)return;const key=t.dataset.addPref;state.prefs[key]=[...new Set([...state.prefs[key],t.value])];state.ui.activeId=null;}
  else if(t.dataset.weight){state.prefs.weights[t.dataset.weight]=Number(t.value);const output=document.querySelector(`#weight-${t.dataset.weight}`);if(output)output.textContent=t.value;redraw=false;}
  else if(t.dataset.schoolInclude){const id=t.dataset.schoolInclude;state.prefs.excludedIds=t.checked?state.prefs.excludedIds.filter(v=>v!==id):[...new Set([...state.prefs.excludedIds,id])];}

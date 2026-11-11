@@ -6,7 +6,7 @@ import {schoolCountries,expandCountrySelections} from './geography.js';
 export const SCHOOL_FILTER_KEYS = [
   'countries','cities','excludedCities','excludeRural','settings','sizes','degrees','programTypes','query',
   'excludedIds','requiredAreas','requiredFacultyQuery','requireAreas','requireFaculty','areaMode',
-  'fundingQuery','internationalQuery','deadlineQuery','applicationQuery',
+  'fundingQuery','internationalQuery','deadlineQuery','applicationQuery','filterMaxRank','filterIncludeUnranked',
 ];
 
 export function resetSchoolFilters(prefs) {
